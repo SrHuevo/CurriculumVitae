@@ -1,0 +1,30 @@
+body {
+	background-color: black;
+}
+
+.foto{
+    border-color: #142F46;
+    padding: 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 12px;
+}
+
+.foto img{
+	border-radius: 10px;
+}
+
+.cabecera{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #171717;
+    border-bottom-color: #142F46;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+
+/* Correcciones Bootstrap */
+.btn-primary a{
+	color: #fff;
+}
