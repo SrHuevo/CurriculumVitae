@@ -5,13 +5,14 @@ body {
 .foto{
     border-color: #142F46;
     padding: 0px;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
-    border-radius: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
 
 .foto img{
-	border-radius: 10px;
+	border-radius: 3px;
 }
 
 .cabecera{
@@ -27,4 +28,11 @@ body {
 /* Correcciones Bootstrap */
 .btn-primary a{
 	color: #fff;
+}
+.btn{
+    white-space: inherit;
+}
+.panel {
+    border-color: #142F46;
+    background-color: rgba(255,255,255,0.1);
 }
