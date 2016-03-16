@@ -5,17 +5,22 @@
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/index.css">
+	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/CV.js"></script>
 </head>
 <body class="text-success">
 	<div class="container-fluid cabecera">
 		<div class="container">
-			<div class="col-sm-2 foto">
-				<img src="resources/img/foto.jpg" width="100%">
+			<div class="col-md-2 col-sm-3 foto">
+				<img class="img-rounded" src="resources/img/foto.jpg" width="160px">
 			</div>
-			<div class="col-md-7 col-sm-10">
-				<div class="panel panel-default">
+			<div class="col-md-7 col-sm-9">
+				<div class="panel panel-primary">
+	  				<div class="panel-heading">
+						<h3>Daniel Garoz Solis <small>Grado en Telemática</small></h3>
+					</div>
 					<div class="panel-body">
-						<h1 class="text-info">Daniel Garoz Solis <small class="text-info">Grado en Telemática</small></h1>
 		 				<p>Hola, mi nombre es <span class="glyphicon glyphicon-hand-up"></span>, soy programador desde septiembre de 2014. Es un mundo que me apasiona y dedico mis horas libres a seguir aprendiendo cualquier tecnología que aparece nueva. Pienso que aun soy joven y no quiero encasillarme en una tecnología en concreto, por lo que estoy dispuesto a salir de mi area de confor (java) y conocer nuevas para quedarme con la que mas me guste.</p>
 		 				<p>Los retos me motivan y la comodidad me aburre por lo que siempre voy en busca de nuevos desafios. Me considero una persona muy proactiva, automotivadora, alegre y me encanta trabajar en equipo y aprovechalo para aprender y compartir conocimientos. Por el contrario no me gusta trabajar solo ni estar mucho tiempo en el mismo proyecto.</p>
 		 				<p>Mi empresa ideal sería aquella que por encima de todo <spam class="glyphicon glyphicon-heart"></spam> la programación.</p>
@@ -23,12 +28,15 @@
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-12">
-				<div class="panel panel-default">
+				<div class="panel panel-primary">
+	  				<div class="panel-heading">
+						<h3>Datos Personales</h3>
+	  				</div>
 	  				<div class="panel-body">
-						<h1 class="text-info">Datos Personales</h1>
-						<div class="btn-group-vertical" role="group" aria-label="...">
+						<div class="btn-group-vertical btn-block" role="group" aria-label="...">
 							<a class="btn btn-primary" href="https://github.com/SrHuevo" target="_blank"><i class="fa fa-github"></i> SrHuevo</a>
 							<a class="btn btn-primary" href="https://es.linkedin.com/in/daniel-garoz-solís-91ba7966" target="_blank"><i class="fa fa-linkedin"></i> Daniel Garoz Solís</a>
+							<a class="btn btn-primary" href="https://twitter.com/SoySrHuevo" target="_blank"><i class="fa fa-twitter"></i> @SoySrHuevo</a>
 							<a class="btn btn-primary" href="mailto:garoz.daniel@ieee.org?Subject=[CV]" target="_blank"><i class="fa fa-envelope-o"></i> garoz.daniel@ieee.org</a>
 							<button id="callme" class="btn btn-primary"><i class="fa fa-phone"></i> 611463460</button>
 							<a class="btn btn-primary" href="https://www.google.es/maps/place/Calle+de+Carlos+y+Guillermo+Fern%C3%A1ndez+Shaw,+1,+28007+Madrid/@40.4060144,-3.6714778,17z/data=!3m1!4b1!4m7!1m4!3m3!1s0xd422605bc30777f:0xd6038121a36c5abd!2sCalle+de+Carlos+y+Guillermo+Fern%C3%A1ndez+Shaw,+28007+Madrid!3b1!3m1!1s0xd422605b201e983:0x238808f08b9f1ff1" target="_blank"><i class="fa fa-map-marker"></i> C/ Carlos y Guillermo Fernandez Shaw 1</a>
@@ -38,20 +46,103 @@
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="
-    display: none;
-">
-	  <ul class="nav navbar-nav">
-	    <li class="active"><a href="#">Basic Topnav</a></li>
-	    <li><a href="#">Page 1</a></li>
-	    <li><a href="#">Page 2</a></li>
-	    <li><a href="#">Page 3</a></li>
-	  </ul>
-	</nav>
+	<div class="container-fluid cabecera" style="display:none;">
+		<div class="container">
+			<div class="media">
+			  	<div class="media-left">
+					<img class="img-rounded" src="resources/img/foto.jpg" height="64px">
+				</div>
+				<div class="media-body">
+					<h2 class="afix">Daniel Garoz Solis <small>Grado en Telemática</small></h2>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid cuerpo">
+		<div class="col-md-6">
+			<div class="panel panel-primary">
+  				<div class="panel-heading">
+					<h3>Experiencia laboral</h3>
+  				</div>
+  				<div class="panel-body">
 
-	
+				</div>		
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-12 col-sm-6">
+					<div class="panel panel-primary">
+		  				<div class="panel-heading">
+							<h3>Habilidades</h3>
+		  				</div>
+		  				<div class="panel-body">
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+							    Trabajo en equipo
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+							    Proactividad
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+							    Liderazgo
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+							    Automotivacion
+							  </div>
+							</div>
+						</div>		
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-6">
+					<div class="panel panel-primary">
+		  				<div class="panel-heading">
+							<h3>Habilidades técicas</h3>
+		  				</div>
+		  				<div class="panel-body">
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+							    Java
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+							    Tomcat
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+							    Spring
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+							   	Front-end(JS,CSS,HTML)
+							  </div>
+							</div>
+							<div class="center">
+								<span class="label label-primary">DJango</span>
+								<span class="label label-danger">AngularJS</span>
+								<span class="label label-info">Ionic</span>
+								<span class="label label-success">React</span>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%" title="prueba"></div>
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%" tittle="prueba"></div>
+							  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%" tittle="prueba"></div>
+							  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%" tittle="prueba"></div>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
-<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript" src="js/CV.js"></script>
 </html>
