@@ -40,3 +40,21 @@ body {
 .progress {
     background: rgb(58, 57, 57);
 }
+
+dl {
+    max-width: 100%;
+}
+.dl-horizontal dt {
+    text-overflow: initial;
+    white-space: normal;
+}
+
+.h1, h1 {
+    font-size: 28px;
+}
+.h2, h2 {
+    font-size: 26px;
+}
+.h3, h3 {
+    font-size: 24px;
+}
