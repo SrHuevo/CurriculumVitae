@@ -58,3 +58,9 @@ dl {
 .h3, h3 {
     font-size: 24px;
 }
+.modal-body {
+    background-color: #DADADA;
+}
+.modal-header {
+    background-color: #BFBFBF;
+}
