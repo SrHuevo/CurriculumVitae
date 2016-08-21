@@ -64,3 +64,6 @@ dl {
 .modal-header {
     background-color: #BFBFBF;
 }
+.clickable {
+	cursor: pointer;
+}
